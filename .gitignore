@@ -192,3 +192,22 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+
+# Ignore csv files
+*.csv
+
+# Ignore json files
+*.json
+
+#Ignore serialized model files
+*.pkl
+
+#Ignore serialized model files
+*.npy
+
+#Ignore serialized model files
+*.parquet
+
+# Ignore extra_classes for now
+/extra_classes
